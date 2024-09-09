@@ -2,7 +2,7 @@
 
 // Construtor da classe Bola
 Bola::Bola(int x, int y, int width, int height)
-    : rect(x, y, width, height), ball_dx(0), ball_dy(5) {}  // Inicialmente a bola desse
+    : rect(x, y, width, height), ball_dx(0), ball_dy(5) {}  // Inicialmente a bola desce
 
 // Retorna o retângulo da bola
 QRect Bola::getRect() const {
